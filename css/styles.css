@@ -1,0 +1,40 @@
+/* для index.html*/
+
+:root {
+    --main-page: #FFFFFF;
+    --text-items: #2196F3;
+    --element-hero: #2F303A;
+}
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: var(--main-page);
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    color: var(--main-page);
+    background-color: var(--element-hero);
+    width: 100%;
+}
+  
+/* Кнопки навыгації*/
+.item-navigation:hover,
+.item-navigation:focus {
+    color: var(--text-items);
+}
+.item-contacts:hover,
+.item-contacts:focus {
+   color: var(--text-items);
+}
+/* Стилі кнопок портфоліо*/
+.list-button:hover,
+.list-button:focus {
+    color: var(--main-page) ;
+    background-color: var(--text-items);
+}
+
+
+
