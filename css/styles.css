@@ -91,14 +91,13 @@ body {
 
 }
 .button-central {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.88;
     font-weight: 700;
     background-color: #2196F3;
     color: var(--main-page) ;
     border: var(--text-items);
-    width: 216px;
-    height: 50px;
     letter-spacing: 0.06em;
 }
 
@@ -121,7 +120,6 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-contacts);
-    width: 270px;
 }
 
 /* Секція - work */
@@ -199,6 +197,7 @@ body {
     background-color: var(--text-items);
 }
 .list-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
